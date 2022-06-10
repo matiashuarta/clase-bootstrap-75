@@ -1,4 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: red;
+}
+
+.border {
+    --bs-border-color: none !important
+}
+
+.bg-section {
+    background-color: black;
+}
+
+h1 {
+    background-color: black;
+}
+
+.marginh1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.carousel-01{
+    background-image: url("https://assets.weforum.org/article/image/XaHpf_z51huQS_JPHs-jkPhBp0dLlxFJwt-sPLpGJB0.jpg");
+    background-size: contain;
+    height: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 66.64%
+}
+
+.exampletest{
+    color: black;
 }
