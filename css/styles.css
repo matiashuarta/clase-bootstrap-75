@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .dropdown-menu {
     --bs-dropdown-link-hover-bg: red;
 }
@@ -14,6 +18,14 @@ h1 {
     background-color: black;
 }
 
+h5{
+    font-size: 3rem;
+}
+
+.p{
+    font-size: 2rem;
+}
+
 .marginh1 {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -23,39 +35,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-.carousel {
-    margin-top: 30px;
-}
-
-.carousel-01 {
-    background-image: url("https://www.goodnet.org/photos/620x0/35558_hd.jpg");
-    background-size: contain;
-    height: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-top: 66.64%
-}
-
-.carousel-02 {
-    background-image: url("https://www.goodnet.org/photos/620x0/37129_hd.jpg");
-    background-size: contain;
-    height: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-top: 66.64%
-}
-
-.carousel-03 {
-    background-image: url("https://www.interiorhealth.ca/sites/default/files/2021-11/co-op%20revised%20Banner.png");
-    background-size: contain;
-    height: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-top: 66.64%
-}
-
-.exampletest {
-    color: black;
+.carousel-inner {
+    margin-bottom: 30px;
 }
 
 .custom-toggler .navbar-toggler-icon {
